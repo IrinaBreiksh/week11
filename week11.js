@@ -385,5 +385,3 @@ function handleMouseOver() {
 }
 
 mouseOver.addEventListener('mouseover', handleMouseOver);
-
-
