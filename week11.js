@@ -238,7 +238,8 @@ document.querySelector('.b-18').onclick = makeEighteen;
 //Подсказка: Используйте метод remove класса элемента
 
 function makeNineteen() {
-	//Ваш код
+	const divChangeActive = document.getElementById('practicum19');
+	divChangeActive.remove('active');
 }
 
 document.querySelector('.b-19').onclick = makeNineteen;
@@ -370,7 +371,7 @@ function handleChange() {
 	console.log('Значение изменено');
 }
 
-buttonTaskTwentyNine.addEventListener('click', handleChange);
+buttonTaskTwentyNine.addEventListener('change', handleChange);
 
 //Ваш код
 

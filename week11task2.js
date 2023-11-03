@@ -8,7 +8,7 @@ function createTask() {
     const newTask = document.createElement('li');
     newTask.textContent = taskText;
     taskList.append(newTask);
-    listInput.value = ' ';
+    listInput.value = '';
 }
 
 button.addEventListener('click', createTask);
